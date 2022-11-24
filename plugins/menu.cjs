@@ -10,16 +10,16 @@ var defaultMenu = {
 	before: `
 👋🏻 Halo kak %name
 
-*Limit* : %limit
-*Role* : %role
-*Level* : %level (%exp / %maxexp)
-*Total exp* : %totalexp
+*Limit 🎟️* : %limit
+*Role 👤* : %role
+*Level 📊* : %level (%exp / %maxexp)
+*Total exp 🎫* : %totalexp
 
-*Tanggal*: %week, %date
-*Waktu*: %time
+*Tanggal 🗓️*: %week, %date
+*Waktu ⌚*: %time
 
-*Uptime*: %uptime (%muptime)
-*Database*: %totalreg
+*Uptime ⏲️*: %uptime (%muptime)
+*Database ⏳*: %totalreg
 
 `.trimStart(),
 	header: '*%category*',
